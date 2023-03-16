@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Document</title>
+</head>
+
+<style>
+    #form-input{
+    height: 40px !important;
+  }
+  #container{
+    background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* object-fit: contain; */
+    margin: 0% !important;
+    padding: 0 !important;
+
+  }
+  .run{
+    color: black;
+    background-color: rgb(98, 98, 98);
+  }
+ input::placeholder{
+    color: rgb(219, 219, 224) !important;
+ } 
+ textarea::placeholder{
+    color: rgb(219, 219, 224) !important;
+
+
+ }
+ 
+  
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<body>
+    <nav class="navbar sticky-wrapper navbar-expand-lg bg-dark " data-bs-theme="dark" style="height: 50px !important;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+              <li class="nav-item ">
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Service.html">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Protfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contact.html">contact</a>
+              </li>
+            </ul>
+            <form class="d-flex align-items-center" role="search">
+              <input class="form-control me-2 bg-secondary p-3" type="search" placeholder="Search" aria-label="Search" id="form-input">
+              <a href="./appointment.html" class="btn btn-outline-primary ">BOOK APPOINTMENT</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <marquee behavior="" direction="" class="run" scrollamount="15"><b>We need your Feedback!!!!!!We need your Feedback!!!!!!We need your Feedback!!!!!!</b></marquee>
+      <div class=" conatiner" id="container">
+        <div class="text-center">
+            <h3 class="text-primary">How Can We Help You?</h3>
+            <p class="text-primary">Lorem ipsum, dolor sit amet consectetur adipisic</p>
+        </div>
+        <div class=" d-flex align-items-center justify-content-center">
+            <div class="bg-dark col-md-4">
+                <div class="p-4 rounded shadow-md">
+                    <div>
+                        <label for="name" class="form-label text-primary" >Your Name:</label>
+                        <input type="text" name="name" class="form-control bg-dark" placeholder="Your Name" required>
+                    </div>
+                    <div class="mt-3">
+                        <label for="email" class="form-label text-primary">Your Email:</label>
+                        <input type="text" name="email" class="form-control bg-dark" placeholder="Your Email" required>
+                    </div class="mt-3">
+                    <div class="mt-3">
+                        <label for="subject" class="form-label text-primary">Subject:</label>
+                        <input type="text" name="subject" class="form-control bg-dark" placeholder="Subject" required>
+                    </div>
+                    <div class="mt-3 mb-3">
+                        <label for="message" class="form-label text-primary">Comments</label>
+                        <textarea name="message text-primary" cols="20" rows="6" class="form-control bg-dark"
+                            placeholder="comments"></textarea>
+                    </div>
+                    <button class="btn btn-primary">
+                        Submit Form
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br><br>
+
+    <!-- footer -->
+<footer class="bg-dark  text-white">
+  <!-- Grid container -->
+  <div class="container">  
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+          <div class="col-md-4 col-sm-12 col-xs-12 justify-content" style="padding: 50px;">
+              <h3>ABOUT US</h3>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis eveniet molestiae eum repellat nulla. Sed quas veritatis porro. Dolores, perferendis molestiae. Eveniet, cum! Earum sequi at voluptatibus in. Nulla, doloribus.</P>
+          </div>
+
+      
+        <!--Grid column-->
+        <div class="col-md-4 col-sm-12 col-xs-12" style="padding: 50px; line-height: 40px;">
+          <h5 class="text-uppercase">CONTACT US</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white" style="text-decoration-line: none;">support-us@rgeeks.com</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white" style="text-decoration-line: none;">helpmenow@rgeeks.com</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white" style="text-decoration-line: none;">Road-2,3/A East Shibgonj</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white" style="text-decoration-line: none;">Sylhet-3100, Bangladesh</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white" style="text-decoration-line: none;">Office:  (+880) 0823 560 433</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white" style="text-decoration-line: none;">Cell:  (+880) 0723 161 343</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-4 col-sm-12 col-xs-12" style="padding: 50px; line-height: 40px;">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled " >
+            <table>
+              <tr>
+                  <td>OPENING HOURS</td>
+              </tr>
+              <tr>
+                  <td>Sat - Tues :</td>
+                  <td>6.00 AM - 10.00 PM</td>
+              </tr>
+              <tr>
+                  <td>Wed - Thurs :</td>
+                  <td>8.00 AM - 6.00 PM</td>
+              </tr>
+              <tr>
+                  <td>Friday :</td>
+                  <td>6.00 AM - 10.00 PM</td>
+              </tr>
+              <tr>
+                  <td>Sunday :/td>
+                  <td>Closed</td>
+              </tr>
+            </table>
+          </ul>
+        </div>
+
+        <!--Grid column-->
+      </div>
+      <div class="row">
+        <h2 class="text-center">21ADR028  MOHAMED RIZWAN M</h2>
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+</html>
